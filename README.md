@@ -48,17 +48,17 @@ To download files directly from Google Drive in a Kaggle notebook using `gdown`:
 1. Copy the **Google Drive share link**, e.g.:
 
 ```
-https://drive.google.com/file/d/1A2B3C4D5E6F7G8H9/view?usp=sharing
+https://drive.google.com/file/d/1HiegCS_Mqc4QUSXBotGxDATNaY-Ihqhv/view?usp=sharing
 ```
 
 2. Extract the **file ID** from the URL. It’s the part between `/d/` and `/view`:
 
 ```python
-File ID = 1A2B3C4D5E6F7G8H9
+File ID = 1HiegCS_Mqc4QUSXBotGxDATNaY-Ihqhv
 ```
 
 
 3. Use `gdown` with the `--id` flag in a notebook code cell:
 ```python
-!gdown --id 1A2B3C4D5E6F7G8H9
+!gdown --id 1HiegCS_Mqc4QUSXBotGxDATNaY-Ihqhv
 ```
